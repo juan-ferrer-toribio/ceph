@@ -245,7 +245,7 @@ public:
             CSV,
             JSON
         };
-  OutputFormat m_outputFormat = OutputFormat::CSV;
+  OutputFormat m_outputFormat;
   unsigned int chunk_number;
   size_t m_requested_range;
   size_t m_scan_offset;
